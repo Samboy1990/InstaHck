@@ -1,0 +1,108 @@
+[00:00:00] Build started
+[00:00:00] git clone -q --branch=master https://github.com/Samboy1990/FakeIt.git C:\projects\fakeit-itj84
+[00:00:05] git checkout -qf baa869c925d003d1d16640ebf1ef8e58a7d23786
+[00:00:05] msbuild "C:\projects\fakeit-itj84\tests\all_tests.sln" /logger:"C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll"
+[00:00:06] Microsoft (R) Build Engine version 16.5.0+d4cbfca49 for .NET Framework
+[00:00:06] Copyright (C) Microsoft Corporation. All rights reserved.
+[00:00:06] 
+[00:00:06] Building the projects in this solution one at a time. To enable parallel build, please add the "-m" switch.
+[00:00:07] Build started 4/11/2020 1:18:10 AM.
+[00:00:07] Project "C:\projects\fakeit-itj84\tests\all_tests.sln" on node 1 (default targets).
+[00:00:07] ValidateSolutionConfiguration:
+[00:00:07]   Building solution configuration "Debug|Win32".
+[00:00:08] Project "C:\projects\fakeit-itj84\tests\all_tests.sln" (1) is building "C:\projects\fakeit-itj84\tests\all_tests.vcxproj" (2) on node 1 (default targets).
+[00:00:08] PrepareForBuild:
+[00:00:08]   Creating directory "Debug\".
+[00:00:08]   Creating directory "Debug\all_tests.tlog\".
+[00:00:08] InitializeBuildStatus:
+[00:00:08]   Creating "Debug\all_tests.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+[00:00:08] ClCompile:
+[00:00:08]   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I..\include /I..\config\standalone /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue /bigobj argument_matching_tests.cpp cpp14_tests.cpp custom_testing_framework_tests.cpp default_behaviore_tests.cpp default_event_formatting_tests.cpp dtor_mocking_tests.cpp event_notification_tests.cpp gcc_stubbing_multiple_values_tests.cpp gcc_type_info_tests.cpp miscellaneous_tests.cpp msc_stubbing_multiple_values_tests.cpp msc_type_info_tests.cpp overloadded_methods_tests.cpp referece_types_tests.cpp remove_const_volatile_tests.cpp rvalue_arguments_tests.cpp sequence_verification_tests.cpp spying_tests.cpp functional.cpp streaming_tests.cpp stubbing_tests.cpp tpunit++main.cpp type_info_tests.cpp custom_event_formatting_tests.cpp verification_errors_tests.cpp verification_tests.cpp VirtualOffsetSelectorTest.cpp
+[00:00:08]   VirtualOffsetSelectorTest.cpp
+[00:00:10]   verification_tests.cpp
+[00:00:12]   verification_errors_tests.cpp
+[00:00:14]   custom_event_formatting_tests.cpp
+[00:00:15]   type_info_tests.cpp
+[00:00:16]   tpunit++main.cpp
+[00:00:17]   stubbing_tests.cpp
+[00:00:19]   streaming_tests.cpp
+[00:00:20]   functional.cpp
+[00:00:20]   spying_tests.cpp
+[00:00:22]   sequence_verification_tests.cpp
+[00:00:24]   rvalue_arguments_tests.cpp
+[00:00:26]   remove_const_volatile_tests.cpp
+[00:00:27]   referece_types_tests.cpp
+[00:00:29]   overloadded_methods_tests.cpp
+[00:00:31]   msc_type_info_tests.cpp
+[00:00:33]   msc_stubbing_multiple_values_tests.cpp
+[00:00:35]   miscellaneous_tests.cpp
+[00:00:37]   gcc_type_info_tests.cpp
+[00:00:37]   gcc_stubbing_multiple_values_tests.cpp
+[00:00:39]   Generating Code...
+[00:00:50]   Compiling...
+[00:00:50]   event_notification_tests.cpp
+[00:00:51]   dtor_mocking_tests.cpp
+[00:00:53]   default_event_formatting_tests.cpp
+[00:00:54]   default_behaviore_tests.cpp
+[00:00:58]   custom_testing_framework_tests.cpp
+[00:00:59]   cpp14_tests.cpp
+[00:00:59]   argument_matching_tests.cpp
+[00:01:01]   Generating Code...
+[00:01:06] Link:
+[00:01:06]   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\projects\fakeit-itj84\tests\Debug\all_tests.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\projects\fakeit-itj84\tests\Debug\all_tests.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\projects\fakeit-itj84\tests\Debug\all_tests.lib" /MACHINE:X86 Debug\argument_matching_tests.obj
+[00:01:06]   Debug\cpp14_tests.obj
+[00:01:06]   Debug\custom_testing_framework_tests.obj
+[00:01:06]   Debug\default_behaviore_tests.obj
+[00:01:06]   Debug\default_event_formatting_tests.obj
+[00:01:06]   Debug\dtor_mocking_tests.obj
+[00:01:06]   Debug\event_notification_tests.obj
+[00:01:06]   Debug\gcc_stubbing_multiple_values_tests.obj
+[00:01:06]   Debug\gcc_type_info_tests.obj
+[00:01:06]   Debug\miscellaneous_tests.obj
+[00:01:06]   Debug\msc_stubbing_multiple_values_tests.obj
+[00:01:06]   Debug\msc_type_info_tests.obj
+[00:01:06]   Debug\overloadded_methods_tests.obj
+[00:01:06]   Debug\referece_types_tests.obj
+[00:01:06]   Debug\remove_const_volatile_tests.obj
+[00:01:06]   Debug\rvalue_arguments_tests.obj
+[00:01:06]   Debug\sequence_verification_tests.obj
+[00:01:06]   Debug\spying_tests.obj
+[00:01:06]   Debug\functional.obj
+[00:01:06]   Debug\streaming_tests.obj
+[00:01:06]   Debug\stubbing_tests.obj
+[00:01:06]   Debug\tpunit++main.obj
+[00:01:06]   Debug\type_info_tests.obj
+[00:01:06]   Debug\custom_event_formatting_tests.obj
+[00:01:06]   Debug\verification_errors_tests.obj
+[00:01:06]   Debug\verification_tests.obj
+[00:01:06]   Debug\VirtualOffsetSelectorTest.obj
+[00:01:10]   all_tests.vcxproj -> C:\projects\fakeit-itj84\tests\Debug\all_tests.exe
+[00:01:10]   all_tests.vcxproj -> C:\projects\fakeit-itj84\tests\Debug\all_tests.pdb (Full PDB)
+[00:01:10] FinalizeBuildStatus:
+[00:01:10]   Deleting file "Debug\all_tests.tlog\unsuccessfulbuild".
+[00:01:10]   Touching "Debug\all_tests.tlog\all_tests.lastbuildstate".
+[00:01:10] Done Building Project "C:\projects\fakeit-itj84\tests\all_tests.vcxproj" (default targets).
+[00:01:11] Project "C:\projects\fakeit-itj84\tests\all_tests.sln" (1) is building "C:\projects\fakeit-itj84\tests\FakeIt.vcxproj" (3) on node 1 (default targets).
+[00:01:11] C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (all_tests.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\projects\fakeit-itj84\tests\FakeIt.vcxproj]
+[00:01:11]   Creating directory "Debug\FakeIt.tlog\".
+[00:01:11] InitializeBuildStatus:
+[00:01:11]   Creating "Debug\FakeIt.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+[00:01:11] FinalizeBuildStatus:
+[00:01:11]   Deleting file "Debug\FakeIt.tlog\unsuccessfulbuild".
+[00:01:11]   Touching "Debug\FakeIt.tlog\FakeIt.lastbuildstate".
+[00:01:11] Done Building Project "C:\projects\fakeit-itj84\tests\FakeIt.vcxproj" (default targets).
+[00:01:11] Done Building Project "C:\projects\fakeit-itj84\tests\all_tests.sln" (default targets).
+[00:01:11] 
+[00:01:11] Build succeeded.
+[00:01:11] 
+[00:01:11] "C:\projects\fakeit-itj84\tests\all_tests.sln" (default target) (1) ->
+[00:01:11] "C:\projects\fakeit-itj84\tests\FakeIt.vcxproj" (default target) (3) ->
+[00:01:11] (PrepareForBuild target) -> 
+[00:01:11]   C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (all_tests.vcxproj).  This can lead to incorrect clean and rebuild behavior. [C:\projects\fakeit-itj84\tests\FakeIt.vcxproj]
+[00:01:11] 
+[00:01:11]     1 Warning(s)
+[00:01:11]     0 Error(s)
+[00:01:11] 
+[00:01:11] Time Elapsed 00:01:04.80
+[00:01:12] Discovering tests...OK
+[00:01:12] Build success
